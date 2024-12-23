@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
 import 'Register_page.dart';
-import 'forgotpassword.dart';
+
 
 
 
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
               useMaterial3: true,
             ),
-            home: Forgot_password(),
+            home: RegisterPage(),
           );
         });
   }
